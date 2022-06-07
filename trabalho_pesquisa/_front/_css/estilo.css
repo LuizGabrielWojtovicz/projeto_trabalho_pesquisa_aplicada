@@ -1,0 +1,662 @@
+
+:root
+{
+    --branco: white;
+    --preto: black;
+}
+
+
+/*
+    mapa
+*/
+
+.comando
+{
+    display: block;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 250px;
+    background-color: black;
+    color: var(--branco);
+    padding: 10px;
+    text-align: center;
+}
+
+#col_1
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    animation: 1s;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_2
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_3
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_4
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_5
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_6
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_7
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_8
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_9
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_10
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_11
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_12
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_13
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_14
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_15
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+#col_16
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 200px;
+    width: 15px;
+    height: 20px;
+    background: linear-gradient(360deg, rgb(255, 0, 0) 0%, rgb(0, 0, 0) 0%);
+    margin-left: 5px;
+    margin: 0 auto;
+}
+
+.mapa
+{
+    filter: invert(100);
+    width: 50%;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 10% 0 0 0;
+    border: 1px solid black;
+}
+
+/*
+    bloco 1
+*/
+
+.ponto_1
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 59%;
+    top: 33%;
+    padding: 0 0.7% 0.9% 0.1%;
+}
+
+.ponto_1:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 2
+*/
+
+.ponto_2
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 55.5%;
+    top: 35%;
+}
+
+.ponto_2:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 3
+*/
+
+.ponto_3
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 53%;
+    top: 37%;
+}
+
+.ponto_3:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 4
+*/
+
+.ponto_4
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 50%;
+    top: 39%;
+}
+
+.ponto_4:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 5
+*/
+
+.ponto_5
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 46.5%;
+    top: 42%;
+}
+
+.ponto_5:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 6
+*/
+
+.ponto_6
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 40%;
+    top: 47%;
+}
+
+.ponto_6:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 7
+*/
+
+.ponto_7
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 36%;
+    top: 50%;
+}
+
+.ponto_7:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 8
+*/
+
+.ponto_8
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 33%;
+    top: 52%;
+}
+
+.ponto_8:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 9
+*/
+
+.ponto_9
+{
+    background-color:transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1%;
+    height: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 58%;
+    top: 37%;
+}
+
+.ponto_9:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 10
+*/
+
+.ponto_10
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 55%;
+    top: 38%;
+}
+
+.ponto_10:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 11
+*/
+
+.ponto_11
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 53.2%;
+    top: 40%;
+}
+
+.ponto_11:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 12
+*/
+
+.ponto_12
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 50%;
+    top: 42%;
+}
+
+.ponto_12:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 13
+*/
+
+.ponto_13
+{
+    background-color:transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 46%;
+    top: 45.5%;
+}
+
+.ponto_13:hover
+{
+    background-color:transparent;
+    border: 1px solid var(--branco);
+    color:transparent;
+}
+
+/*
+    bloco 14
+*/
+
+.ponto_14
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 41%;
+    top: 49.5%;
+}
+
+.ponto_14:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 15
+*/
+
+.ponto_15
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 36%;
+    top: 53%;
+}
+
+.ponto_15:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
+/*
+    bloco 16
+*/
+
+.ponto_16
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--branco);
+    width: 1.7%;
+    height: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    padding: 0 0.7% 0.9% 0.1%;
+    left: 33.5%;
+    top: 55%;
+}
+
+.ponto_16:hover
+{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: transparent;
+}
+
